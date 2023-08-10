@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
   s.source_files = 'REValidation', 'REValidation/Validators'
   s.public_header_files = 'REValidation/*.h', 'REValidation/Validators/*.h'
   s.ios.deployment_target = '5.0'
+  s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.7'
 end
